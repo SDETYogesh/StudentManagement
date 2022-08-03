@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="3" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T13:48:44Z" name="Suite" finished-at="2022-07-27T13:49:29Z" duration-ms="44819">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T13:48:44Z" name="Test" finished-at="2022-07-27T13:49:29Z" duration-ms="44819">
+      <class name="org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest">
+        <test-method is-config="true" signature="intCls()[pri:0, instance:org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest@67d18ed7]" started-at="2022-07-27T19:18:44Z" name="intCls" finished-at="2022-07-27T19:18:44Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intCls -->
+        <test-method is-config="true" signature="genrateRandomNum()[pri:0, instance:org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest@67d18ed7]" started-at="2022-07-27T19:18:44Z" name="genrateRandomNum" finished-at="2022-07-27T19:18:44Z" depends-on-methods="org.tyss.sms.genricUtility.InitClasses.intCls" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genrateRandomNum -->
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest@67d18ed7]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'YOG', ip: '172.30.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c45e747fc6aee49a1faaadc3a31080c3, get {url=http://192.168.1.108/domain/Student_Management_System/view/login.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\yogir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c45e747fc6aee49a1faaadc3a31080c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'YOG', ip: '172.30.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c45e747fc6aee49a1faaadc3a31080c3, get {url=http://192.168.1.108/domain/Student_Management_System/view/login.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\yogir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c45e747fc6aee49a1faaadc3a31080c3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+	at org.tyss.sms.genricUtility.SmsWebDriverUtility.openApplication(SmsWebDriverUtility.java:78)
+	at org.tyss.sms.genricUtility.BaseClassTest.PreSetUp(BaseClassTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="AddTeacher()[pri:0, instance:org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest@67d18ed7]" started-at="2022-07-27T19:19:29Z" name="AddTeacher" finished-at="2022-07-27T19:19:29Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTeacher -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest@67d18ed7]" started-at="2022-07-27T19:19:29Z" name="closeBrowser" finished-at="2022-07-27T19:19:29Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest -->
+      <class name="org.sms.runtests.AddteacherScriptTest">
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.sms.runtests.AddteacherScriptTest@6cc558c6]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="addTeacher()[pri:0, instance:org.sms.runtests.AddteacherScriptTest@6cc558c6]" started-at="2022-07-27T19:18:44Z" name="addTeacher" finished-at="2022-07-27T19:18:44Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTeacher -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.sms.runtests.AddteacherScriptTest@6cc558c6]" started-at="2022-07-27T19:18:44Z" name="closeBrowser" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.sms.runtests.AddteacherScriptTest -->
+      <class name="org.tyss.sms.initclasses.Parent_AllTeacherScriptTest">
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.tyss.sms.initclasses.Parent_AllTeacherScriptTest@106cc338]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="P_AllTeacher()[pri:0, instance:org.tyss.sms.initclasses.Parent_AllTeacherScriptTest@106cc338]" started-at="2022-07-27T19:18:44Z" name="P_AllTeacher" finished-at="2022-07-27T19:18:44Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P_AllTeacher -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.tyss.sms.initclasses.Parent_AllTeacherScriptTest@106cc338]" started-at="2022-07-27T19:18:44Z" name="closeBrowser" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tyss.sms.initclasses.Parent_AllTeacherScriptTest -->
+      <class name="org.tyss.sms.testng_practice.TestNGCreateCustomerTest">
+        <test-method signature="modifyCustomerTest()[pri:1, instance:org.tyss.sms.testng_practice.TestNGCreateCustomerTest@15713d56]" started-at="2022-07-27T19:18:44Z" name="modifyCustomerTest" finished-at="2022-07-27T19:18:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomerTest -->
+        <test-method signature="deleteCustomerTest()[pri:2, instance:org.tyss.sms.testng_practice.TestNGCreateCustomerTest@15713d56]" started-at="2022-07-27T19:18:44Z" name="deleteCustomerTest" finished-at="2022-07-27T19:18:44Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method signature="createCustomerTest()[pri:3, instance:org.tyss.sms.testng_practice.TestNGCreateCustomerTest@15713d56]" started-at="2022-07-27T19:18:44Z" name="createCustomerTest" finished-at="2022-07-27T19:18:44Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+      </class> <!-- org.tyss.sms.testng_practice.TestNGCreateCustomerTest -->
+      <class name="org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest">
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest@132e0cc]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.hashCode()" because "browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "browser" is null
+	at org.tyss.sms.genricUtility.SmsWebDriverUtility.setupDriver(SmsWebDriverUtility.java:37)
+	at org.tyss.sms.genricUtility.BaseClassTest.PreSetUp(BaseClassTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="loginTest()[pri:0, instance:org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest@132e0cc]" started-at="2022-07-27T19:18:44Z" name="loginTest" finished-at="2022-07-27T19:18:44Z" duration-ms="8" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest@132e0cc]" started-at="2022-07-27T19:18:44Z" name="closeBrowser" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest -->
+      <class name="org.tyss.sms.initclasses.LoginInitTest">
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.tyss.sms.initclasses.LoginInitTest@7b205dbd]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.hashCode()" because "browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "browser" is null
+	at org.tyss.sms.genricUtility.SmsWebDriverUtility.setupDriver(SmsWebDriverUtility.java:37)
+	at org.tyss.sms.genricUtility.BaseClassTest.PreSetUp(BaseClassTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="loginApp()[pri:0, instance:org.tyss.sms.initclasses.LoginInitTest@7b205dbd]" started-at="2022-07-27T19:18:44Z" name="loginApp" finished-at="2022-07-27T19:18:44Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.tyss.sms.initclasses.LoginInitTest@7b205dbd]" started-at="2022-07-27T19:18:44Z" name="closeBrowser" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tyss.sms.initclasses.LoginInitTest -->
+      <class name="org.tyss.sms.initclasses.InitTeacherAttendancePageTest">
+        <test-method is-config="true" signature="PreSetUp()[pri:0, instance:org.tyss.sms.initclasses.InitTeacherAttendancePageTest@7a67e3c6]" started-at="2022-07-27T19:18:44Z" name="PreSetUp" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetUp -->
+        <test-method signature="TeacherAttendanceTest()[pri:0, instance:org.tyss.sms.initclasses.InitTeacherAttendancePageTest@7a67e3c6]" started-at="2022-07-27T19:18:44Z" name="TeacherAttendanceTest" finished-at="2022-07-27T19:18:44Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeacherAttendanceTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.tyss.sms.initclasses.InitTeacherAttendancePageTest@7a67e3c6]" started-at="2022-07-27T19:18:44Z" name="closeBrowser" finished-at="2022-07-27T19:18:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.tyss.sms.initclasses.InitTeacherAttendancePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

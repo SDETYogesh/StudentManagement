@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="org.tyss.sms.initclasses.LoginInitTest">
+        <methods>
+          <include name="PreSetUp"/>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- org.tyss.sms.initclasses.LoginInitTest -->
+      <class name="org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest">
+        <methods>
+          <include name="PreSetUp"/>
+          <include name="AddTeacher"/>
+          <include name="genrateRandomNum"/>
+          <include name="intCls"/>
+        </methods>
+      </class> <!-- org.tyss.sms.initclasses.Admin_AddTeacherPageScriptTest -->
+      <class name="org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest">
+        <methods>
+          <include name="PreSetUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- org.tyss.sms.initclasses.Admin_LeaveStudentPageSriptTest -->
+      <class name="org.tyss.sms.initclasses.InitTeacherAttendancePageTest">
+        <methods>
+          <include name="TeacherAttendanceTest"/>
+        </methods>
+      </class> <!-- org.tyss.sms.initclasses.InitTeacherAttendancePageTest -->
+      <class name="org.tyss.sms.initclasses.Parent_AllTeacherScriptTest">
+        <methods>
+          <include name="P_AllTeacher"/>
+        </methods>
+      </class> <!-- org.tyss.sms.initclasses.Parent_AllTeacherScriptTest -->
+      <class name="org.sms.runtests.AddteacherScriptTest">
+        <methods>
+          <include name="addTeacher"/>
+        </methods>
+      </class> <!-- org.sms.runtests.AddteacherScriptTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
